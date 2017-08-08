@@ -29,17 +29,17 @@ import static org.junit.Assert.fail;
 
 public class Operation {
     private Collection<SampleOrg> testSampleOrgs;
-    private final TestConfig testConfig ;
+    private final TestConfig testConfig;
     private final Properties opProperties;
-    private final String CHANNEL_NAME ;
+    private final String CHANNEL_NAME;
 
     private final String ADMIN_NAME = "admin";
     private final String USER_1_NAME = "ddd";
     //private final String FIXTURES_PATH = "src/test/fixture";
 
-    private final String CHAIN_CODE_NAME ;
-    private final String CHAIN_CODE_PATH ;
-    private final String CHAIN_CODE_VERSION ;
+    private final String CHAIN_CODE_NAME;
+    private final String CHAIN_CODE_PATH;
+    private final String CHAIN_CODE_VERSION;
 
     private HFClient client;
     private SampleOrg sampleOrg;
@@ -48,10 +48,11 @@ public class Operation {
     private String propertyFilePath;
 
 
-    public Operation(String propertyFilePath){
+    public Operation(String propertyFilePath) {
         this.propertyFilePath = propertyFilePath;
         this.testConfig = TestConfig.getConfig(this.propertyFilePath);
         this.opProperties = this.testConfig.getOperationProperties();
+        this.testSampleOrgs = this.testConfig.getIntegrationTestsSampleOrgs();
         this.CHANNEL_NAME = this.opProperties.getProperty("hyperledger.fabric.operation.channelname");
         this.CHAIN_CODE_NAME = this.opProperties.getProperty("hyperledger.fabric.operation.chaincodename");
         this.CHAIN_CODE_PATH = this.opProperties.getProperty("hyperledger.fabric.operation.chaincodepath");
@@ -59,20 +60,18 @@ public class Operation {
         out(this.opProperties.getProperty("hyperledger.fabric.operation.channelpath"));
     }
 
-    public void setup() throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, MalformedURLException {
+    public void constructSetup() {
         out("\n\n\nRUNNING: Operation.\n");
-
-        this.testSampleOrgs = testConfig.getIntegrationTestsSampleOrgs();
 
         // this.myChannel.setTransactionWaitTime(testConfig.getTransactionWaitTime());
         // this.myChannel.setDeployWaitTime(testConfig.getDeployWaitTime());
         //Set up hfca for each sample org
-
-        for (SampleOrg sampleOrg : testSampleOrgs) {
-            sampleOrg.setCAClient(HFCAClient.createNewInstance(sampleOrg.getCALocation(), sampleOrg.getCAProperties()));
-        }
-
         try {
+
+            for (SampleOrg sampleOrg : testSampleOrgs) {
+                sampleOrg.setCAClient(HFCAClient.createNewInstance(sampleOrg.getCALocation(), sampleOrg.getCAProperties()));
+            }
+
             this.client = HFClient.createNewInstance();
             this.client.setCryptoSuite(CryptoSuite.Factory.getCryptoSuite());
             //Set up USERS
@@ -107,7 +106,7 @@ public class Operation {
                 sampleOrg.setAdmin(admin); // The admin of this org --
 
                 SampleUser user = sampleStore.getMember(USER_1_NAME, sampleOrg.getName());
-                /*if (!user.isRegistered()) {  // users need to be registered AND enrolled
+                if (!user.isRegistered()) {  // users need to be registered AND enrolled
                     //RegistrationRequest rr = new RegistrationRequest(user.getName(), "org1.department1");
                     //String tmp = ca.register(rr, admin);
                     user.setEnrollmentSecret("LpxYDjcunIGU");
@@ -118,13 +117,13 @@ public class Operation {
                 if (!user.isEnrolled()) {
                     user.setEnrollment(ca.enroll(user.getName(), user.getEnrollmentSecret()));
                     user.setMspId(mspid);
-                }*/
+                }
                 sampleOrg.addUser(user); //Remember user belongs to this Org
 
                 final String sampleOrgName = sampleOrg.getName();
                 final String sampleOrgDomainName = sampleOrg.getDomainName();
 
-                // src/test/fixture/sdkintegration/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/
+                //src/test/fixture/sdkintegration/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/
 
                 SampleUser peerOrgAdmin = sampleStore.getMember(sampleOrgName + "Admin", sampleOrgName, sampleOrg.getMSPID(),
                         Util.findFileSk(Paths.get(testConfig.getTestChannelPath(), "crypto-config/peerOrganizations/",
@@ -132,9 +131,10 @@ public class Operation {
                         Paths.get(testConfig.getTestChannelPath(), "crypto-config/peerOrganizations/", sampleOrgDomainName,
                                 format("/users/Admin@%s/msp/signcerts/Admin@%s-cert.pem", sampleOrgDomainName, sampleOrgDomainName)).toFile());
 
+
+                //sampleOrg.setPeerAdmin(sampleStore.getMember(orgName + "Admin", orgName));
                 sampleOrg.setPeerAdmin(peerOrgAdmin); //A special user that can create channels, join peers and install chaincode
             }
-
             ////////////////////////////
             //Construct and run the channels
             this.sampleOrg = testConfig.getIntegrationTestsSampleOrg("peerOrg1");
@@ -142,66 +142,65 @@ public class Operation {
                     .setVersion(CHAIN_CODE_VERSION)
                     .setPath(CHAIN_CODE_PATH).build();
 
-            //this.myChannel = constructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
-            //this.installChaincode(this.client, this.myChannel, this.sampleOrg);
-            //this.instantiateChaincode(this.client, this.myChannel, this.sampleOrg);
-            this.myChannel = reconstructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
+            this.myChannel = constructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
+            this.installChaincode(this.client, this.myChannel, this.sampleOrg);
+            this.instantiateChaincode(this.client, this.myChannel, this.sampleOrg);
+            //this.myChannel = reconstructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
 
-            /*String res_1 = "not1";
-            String res_2 = "not2";
-            String res_3 = "not3";
-            String res_4 = "not4";
-            String res_5 = "not5";
-            String res_6 = "not6";
-            String res_7 = "not7";
-            String new_account = "cc";
-            String new_amount = "1000";
-            
-            res_1 = this.query("a");
-            res_2 = this.query("b");
-            out(String.format("New construct res_1:%s , res_2:%s", res_1, res_2));
-            this.transfer("a", "b", "10");
-            res_3 = this.query("a");
-            res_4 = this.query("b");
-            out(String.format("res_3:%s , res_4:%s", res_3, res_4));
-
-            out("New account!");
-            this.initiate(new_account , new_amount);
-            res_5 = this.query(new_account);
-            out("res_5:%s" , res_5);
-            this.transfer("a" , new_account , "10");
-            res_6 = this.query("a");
-            res_7 = this.query(new_account);
-            out(String.format("res_6:%s , res_7:%s", res_6, res_7));
-
-            this.myChannel = reconstructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
-
-
-            res_1 = this.query("a");
-            res_2 = this.query("b");
-            out(String.format("Reconstruct res_1:%s , res_2:%s", res_1, res_2));
-            this.transfer("a", "b", "10");
-            res_3 = this.query("a");
-            res_4 = this.query("b");
-            out(String.format("res_3:%s , res_4:%s", res_3, res_4));*/
-
-            //runChannel(this.client, this.myChannel, true, this.sampleOrg, 0);
-            //this.myChannel.shutdown(true); // Force mychannel to shutdown clean up resources.
-            out("\n");
-
-            /*sampleOrg = testConfig.getIntegrationTestsSampleOrg("peerOrg2");
-            Channel barChannel = constructChannel(BAR_CHANNEL_NAME, client, sampleOrg);
-            runChannel(client, barChannel, true, sampleOrg, 100); //run a newly constructed bar channel with different b value!
-            //let bar channel just shutdown so we have both scenarios.
-
-            out("\nTraverse the blocks for chain %s ", barChannel.getName());
-            blockWalker(barChannel);
-            out("That's all folks!");*/
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
     //CHECKSTYLE.ON: Method length is 320 lines (max allowed is 150).
+
+    public void reconstructSetup() {
+
+        try{
+            HFClient client = HFClient.createNewInstance();
+
+            client.setCryptoSuite(CryptoSuite.Factory.getCryptoSuite());
+
+            // client.setMemberServices(peerOrg1FabricCA);
+
+            ////////////////////////////
+            //Set up USERS
+
+            //Persistence is not part of SDK. Sample file store is for demonstration purposes only!
+            //   MUST be replaced with more robust application implementation  (Database, LDAP)
+            File sampleStoreFile = new File(System.getProperty("java.io.tmpdir") + "/HFCSampletest.properties");
+
+            final SampleStore sampleStore = new SampleStore(sampleStoreFile);
+
+            //SampleUser can be any implementation that implements org.hyperledger.fabric.sdk.User Interface
+
+            ////////////////////////////
+            // get users for all orgs
+
+            for (SampleOrg sampleOrg : this.testSampleOrgs) {
+
+                final String orgName = sampleOrg.getName();
+
+                SampleUser admin = sampleStore.getMember(this.ADMIN_NAME, orgName);
+                sampleOrg.setAdmin(admin); // The admin of this org.
+
+                // No need to enroll or register all done in End2endIt !
+                SampleUser user = sampleStore.getMember(this.USER_1_NAME, orgName);
+                sampleOrg.addUser(user);  //Remember user belongs to this Org
+
+                sampleOrg.setPeerAdmin(sampleStore.getMember(orgName + "Admin", orgName));
+            }
+
+            this.sampleOrg = testConfig.getIntegrationTestsSampleOrg("peerOrg1");
+            this.chaincodeID = ChaincodeID.newBuilder().setName(CHAIN_CODE_NAME)
+                    .setVersion(CHAIN_CODE_VERSION)
+                    .setPath(CHAIN_CODE_PATH).build();
+
+            this.myChannel = reconstructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
+        }catch (Exception e){
+
+        }
+
+    }
 
     private Channel constructChannel(String name, HFClient client, SampleOrg sampleOrg) throws Exception {
         ////////////////////////////
@@ -645,8 +644,8 @@ public class Operation {
                 ////////////////////////////
                 // Send Query Proposal to all peers
                 //
-               // String expect = "300";
-                out("Now query chaincode for the value of %s." , account);
+                // String expect = "300";
+                out("Now query chaincode for the value of %s.", account);
                 QueryByChaincodeRequest queryByChaincodeRequest = client.newQueryProposalRequest();
                 queryByChaincodeRequest.setArgs(new String[]{account});
                 queryByChaincodeRequest.setFcn("query");
@@ -666,8 +665,8 @@ public class Operation {
                     } else {
                         String payload = proposalResponse.getProposalResponse().getResponse().getPayload().toStringUtf8();
                         tmp_amount = payload;
-                        out("Query payload of %s from peer %s returned %s",account ,  proposalResponse.getPeer().getName(), payload);
-                       // assertEquals(payload, expect);
+                        out("Query payload of %s from peer %s returned %s", account, proposalResponse.getPeer().getName(), payload);
+                        // assertEquals(payload, expect);
                     }
                 }
 
@@ -725,7 +724,7 @@ public class Operation {
             transactionProposalRequest.setChaincodeID(this.chaincodeID);
             transactionProposalRequest.setFcn("give");
             transactionProposalRequest.setProposalWaitTime(testConfig.getProposalWaitTime());
-            transactionProposalRequest.setArgs(new String[]{tmp_account , tmp_amount});
+            transactionProposalRequest.setArgs(new String[]{tmp_account, tmp_amount});
 
             Map<String, byte[]> tm2 = new HashMap<>();
             tm2.put("HyperLedgerFabric", "TransactionProposalRequest:JavaSDK".getBytes(UTF_8));
@@ -733,7 +732,7 @@ public class Operation {
             tm2.put("result", ":)".getBytes(UTF_8));  /// This should be returned see chaincode.
             transactionProposalRequest.setTransientMap(tm2);
 
-            out(String.format("sending transactionProposal to all peers with arguments: give(%s,%s)", tmp_account , tmp_amount));
+            out(String.format("sending transactionProposal to all peers with arguments: give(%s,%s)", tmp_account, tmp_amount));
 
             Collection<ProposalResponse> transactionPropResp = this.myChannel.sendTransactionProposal(transactionProposalRequest, this.myChannel.getPeers());
             for (ProposalResponse response : transactionPropResp) {
