@@ -211,8 +211,8 @@ public class TestConfig {
      *
      * @return Global configuration
      */
-    public static TestConfig getConfig(String propertyFilePath) {
-        propertyFilePath = propertyFilePath;
+    public static TestConfig getConfig(String filePath) {
+        propertyFilePath = filePath;
         if (null == config) {
             config = new TestConfig();
         }

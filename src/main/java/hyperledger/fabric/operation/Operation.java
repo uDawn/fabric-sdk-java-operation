@@ -35,7 +35,7 @@ public class Operation {
 
     private final String ADMIN_NAME = "admin";
     private final String USER_1_NAME = "ddd";
-    private final String FIXTURES_PATH = "src/test/fixture";
+    //private final String FIXTURES_PATH = "src/test/fixture";
 
     private final String CHAIN_CODE_NAME ;
     private final String CHAIN_CODE_PATH ;
