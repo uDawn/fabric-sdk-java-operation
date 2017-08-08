@@ -110,7 +110,7 @@ public class Operation {
                 if (!user.isRegistered()) {  // users need to be registered AND enrolled
                     RegistrationRequest rr = new RegistrationRequest(user.getName(), "org1.department1");
                     String tmp = ca.register(rr, admin);
-                    user.setEnrollmentSecret("tmp");
+                    user.setEnrollmentSecret(tmp);
                     File secret = new File("src/secret.txt");
                     FileOutputStream write_secret = new FileOutputStream(secret, false);
                     write_secret.write(tmp.getBytes());
