@@ -31,8 +31,8 @@
       <file leaf-file-name="Operation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="937">
-              <caret line="202" column="32" lean-forward="true" selection-start-line="202" selection-start-column="32" selection-end-line="202" selection-end-column="32" />
+            <state relative-caret-position="452">
+              <caret line="284" column="107" lean-forward="false" selection-start-line="284" selection-start-column="107" selection-end-line="284" selection-end-column="107" />
               <folding>
                 <element signature="method#Operation#0;class#Operation#0" expanded="false" />
                 <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
@@ -45,26 +45,30 @@
                 <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
                 <element signature="e#9841#9869#0" expanded="false" />
                 <element signature="e#10273#10352#0" expanded="false" />
-                <element signature="e#15347#15439#0" expanded="false" />
-                <element signature="e#15869#15924#0" expanded="false" />
+                <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
+                <element signature="e#15355#15447#0" expanded="false" />
+                <element signature="e#15877#15932#0" expanded="false" />
                 <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-                <element signature="e#17380#17408#0" expanded="false" />
-                <element signature="e#17748#17787#0" expanded="false" />
-                <element signature="e#18197#18225#0" expanded="false" />
-                <element signature="e#18366#18409#0" expanded="false" />
+                <element signature="e#17388#17416#0" expanded="false" />
+                <element signature="e#17756#17795#0" expanded="false" />
+                <element signature="e#18205#18233#0" expanded="false" />
+                <element signature="e#18374#18417#0" expanded="false" />
+                <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
                 <element signature="method#out#0;class#Operation#0" expanded="false" />
                 <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
                 <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-                <element signature="e#25224#25353#0" expanded="false" />
-                <element signature="e#25556#25571#0" expanded="false" />
-                <element signature="e#27225#27316#0" expanded="false" />
-                <element signature="e#29474#29502#0" expanded="false" />
-                <element signature="e#30074#30088#0" expanded="false" />
-                <element signature="e#30627#30713#0" expanded="false" />
+                <element signature="method#transfer#0;class#Operation#0" expanded="false" />
+                <element signature="e#25232#25361#0" expanded="false" />
+                <element signature="e#25564#25579#0" expanded="false" />
+                <element signature="e#27233#27324#0" expanded="false" />
+                <element signature="e#29482#29510#0" expanded="false" />
+                <element signature="e#30082#30096#0" expanded="false" />
+                <element signature="method#query#0;class#Operation#0" expanded="false" />
+                <element signature="e#30635#30721#0" expanded="false" />
                 <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-                <element signature="e#34598#34613#0" expanded="false" />
-                <element signature="e#36222#36313#0" expanded="false" />
-                <element signature="e#38447#38475#0" expanded="false" />
+                <element signature="e#34606#34621#0" expanded="false" />
+                <element signature="e#36230#36321#0" expanded="false" />
+                <element signature="e#38455#38483#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -93,7 +97,7 @@
       <file leaf-file-name="TestOper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="382">
               <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -537,12 +541,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502183098562</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="second">
+      <created>1502183201409</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1502183201409</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -552,7 +562,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -617,26 +627,30 @@
             <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
             <element signature="e#9841#9869#0" expanded="false" />
             <element signature="e#10273#10352#0" expanded="false" />
-            <element signature="e#15347#15439#0" expanded="false" />
-            <element signature="e#15869#15924#0" expanded="false" />
+            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
+            <element signature="e#15355#15447#0" expanded="false" />
+            <element signature="e#15877#15932#0" expanded="false" />
             <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#17380#17408#0" expanded="false" />
-            <element signature="e#17748#17787#0" expanded="false" />
-            <element signature="e#18197#18225#0" expanded="false" />
-            <element signature="e#18366#18409#0" expanded="false" />
+            <element signature="e#17388#17416#0" expanded="false" />
+            <element signature="e#17756#17795#0" expanded="false" />
+            <element signature="e#18205#18233#0" expanded="false" />
+            <element signature="e#18374#18417#0" expanded="false" />
+            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
             <element signature="method#out#0;class#Operation#0" expanded="false" />
             <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
             <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#25224#25353#0" expanded="false" />
-            <element signature="e#25556#25571#0" expanded="false" />
-            <element signature="e#27225#27316#0" expanded="false" />
-            <element signature="e#29474#29502#0" expanded="false" />
-            <element signature="e#30074#30088#0" expanded="false" />
-            <element signature="e#30627#30713#0" expanded="false" />
+            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
+            <element signature="e#25232#25361#0" expanded="false" />
+            <element signature="e#25564#25579#0" expanded="false" />
+            <element signature="e#27233#27324#0" expanded="false" />
+            <element signature="e#29482#29510#0" expanded="false" />
+            <element signature="e#30082#30096#0" expanded="false" />
+            <element signature="method#query#0;class#Operation#0" expanded="false" />
+            <element signature="e#30635#30721#0" expanded="false" />
             <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-            <element signature="e#34598#34613#0" expanded="false" />
-            <element signature="e#36222#36313#0" expanded="false" />
-            <element signature="e#38447#38475#0" expanded="false" />
+            <element signature="e#34606#34621#0" expanded="false" />
+            <element signature="e#36230#36321#0" expanded="false" />
+            <element signature="e#38455#38483#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -675,26 +689,30 @@
             <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
             <element signature="e#9841#9869#0" expanded="false" />
             <element signature="e#10273#10352#0" expanded="false" />
-            <element signature="e#15347#15439#0" expanded="false" />
-            <element signature="e#15869#15924#0" expanded="false" />
+            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
+            <element signature="e#15355#15447#0" expanded="false" />
+            <element signature="e#15877#15932#0" expanded="false" />
             <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#17380#17408#0" expanded="false" />
-            <element signature="e#17748#17787#0" expanded="false" />
-            <element signature="e#18197#18225#0" expanded="false" />
-            <element signature="e#18366#18409#0" expanded="false" />
+            <element signature="e#17388#17416#0" expanded="false" />
+            <element signature="e#17756#17795#0" expanded="false" />
+            <element signature="e#18205#18233#0" expanded="false" />
+            <element signature="e#18374#18417#0" expanded="false" />
+            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
             <element signature="method#out#0;class#Operation#0" expanded="false" />
             <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
             <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#25224#25353#0" expanded="false" />
-            <element signature="e#25556#25571#0" expanded="false" />
-            <element signature="e#27225#27316#0" expanded="false" />
-            <element signature="e#29474#29502#0" expanded="false" />
-            <element signature="e#30074#30088#0" expanded="false" />
-            <element signature="e#30627#30713#0" expanded="false" />
+            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
+            <element signature="e#25232#25361#0" expanded="false" />
+            <element signature="e#25564#25579#0" expanded="false" />
+            <element signature="e#27233#27324#0" expanded="false" />
+            <element signature="e#29482#29510#0" expanded="false" />
+            <element signature="e#30082#30096#0" expanded="false" />
+            <element signature="method#query#0;class#Operation#0" expanded="false" />
+            <element signature="e#30635#30721#0" expanded="false" />
             <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-            <element signature="e#34598#34613#0" expanded="false" />
-            <element signature="e#36222#36313#0" expanded="false" />
-            <element signature="e#38447#38475#0" expanded="false" />
+            <element signature="e#34606#34621#0" expanded="false" />
+            <element signature="e#36230#36321#0" expanded="false" />
+            <element signature="e#38455#38483#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -723,26 +741,30 @@
             <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
             <element signature="e#9841#9869#0" expanded="false" />
             <element signature="e#10273#10352#0" expanded="false" />
-            <element signature="e#15347#15439#0" expanded="false" />
-            <element signature="e#15869#15924#0" expanded="false" />
+            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
+            <element signature="e#15355#15447#0" expanded="false" />
+            <element signature="e#15877#15932#0" expanded="false" />
             <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#17380#17408#0" expanded="false" />
-            <element signature="e#17748#17787#0" expanded="false" />
-            <element signature="e#18197#18225#0" expanded="false" />
-            <element signature="e#18366#18409#0" expanded="false" />
+            <element signature="e#17388#17416#0" expanded="false" />
+            <element signature="e#17756#17795#0" expanded="false" />
+            <element signature="e#18205#18233#0" expanded="false" />
+            <element signature="e#18374#18417#0" expanded="false" />
+            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
             <element signature="method#out#0;class#Operation#0" expanded="false" />
             <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
             <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#25224#25353#0" expanded="false" />
-            <element signature="e#25556#25571#0" expanded="false" />
-            <element signature="e#27225#27316#0" expanded="false" />
-            <element signature="e#29474#29502#0" expanded="false" />
-            <element signature="e#30074#30088#0" expanded="false" />
-            <element signature="e#30627#30713#0" expanded="false" />
+            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
+            <element signature="e#25232#25361#0" expanded="false" />
+            <element signature="e#25564#25579#0" expanded="false" />
+            <element signature="e#27233#27324#0" expanded="false" />
+            <element signature="e#29482#29510#0" expanded="false" />
+            <element signature="e#30082#30096#0" expanded="false" />
+            <element signature="method#query#0;class#Operation#0" expanded="false" />
+            <element signature="e#30635#30721#0" expanded="false" />
             <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-            <element signature="e#34598#34613#0" expanded="false" />
-            <element signature="e#36222#36313#0" expanded="false" />
-            <element signature="e#38447#38475#0" expanded="false" />
+            <element signature="e#34606#34621#0" expanded="false" />
+            <element signature="e#36230#36321#0" expanded="false" />
+            <element signature="e#38455#38483#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,7 +922,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="382">
           <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -910,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="937">
-          <caret line="202" column="32" lean-forward="true" selection-start-line="202" selection-start-column="32" selection-end-line="202" selection-end-column="32" />
+        <state relative-caret-position="452">
+          <caret line="284" column="107" lean-forward="false" selection-start-line="284" selection-start-column="107" selection-end-line="284" selection-end-column="107" />
           <folding>
             <element signature="method#Operation#0;class#Operation#0" expanded="false" />
             <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
@@ -924,26 +946,30 @@
             <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
             <element signature="e#9841#9869#0" expanded="false" />
             <element signature="e#10273#10352#0" expanded="false" />
-            <element signature="e#15347#15439#0" expanded="false" />
-            <element signature="e#15869#15924#0" expanded="false" />
+            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
+            <element signature="e#15355#15447#0" expanded="false" />
+            <element signature="e#15877#15932#0" expanded="false" />
             <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#17380#17408#0" expanded="false" />
-            <element signature="e#17748#17787#0" expanded="false" />
-            <element signature="e#18197#18225#0" expanded="false" />
-            <element signature="e#18366#18409#0" expanded="false" />
+            <element signature="e#17388#17416#0" expanded="false" />
+            <element signature="e#17756#17795#0" expanded="false" />
+            <element signature="e#18205#18233#0" expanded="false" />
+            <element signature="e#18374#18417#0" expanded="false" />
+            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
             <element signature="method#out#0;class#Operation#0" expanded="false" />
             <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
             <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#25224#25353#0" expanded="false" />
-            <element signature="e#25556#25571#0" expanded="false" />
-            <element signature="e#27225#27316#0" expanded="false" />
-            <element signature="e#29474#29502#0" expanded="false" />
-            <element signature="e#30074#30088#0" expanded="false" />
-            <element signature="e#30627#30713#0" expanded="false" />
+            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
+            <element signature="e#25232#25361#0" expanded="false" />
+            <element signature="e#25564#25579#0" expanded="false" />
+            <element signature="e#27233#27324#0" expanded="false" />
+            <element signature="e#29482#29510#0" expanded="false" />
+            <element signature="e#30082#30096#0" expanded="false" />
+            <element signature="method#query#0;class#Operation#0" expanded="false" />
+            <element signature="e#30635#30721#0" expanded="false" />
             <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-            <element signature="e#34598#34613#0" expanded="false" />
-            <element signature="e#36222#36313#0" expanded="false" />
-            <element signature="e#38447#38475#0" expanded="false" />
+            <element signature="e#34606#34621#0" expanded="false" />
+            <element signature="e#36230#36321#0" expanded="false" />
+            <element signature="e#38455#38483#0" expanded="false" />
           </folding>
         </state>
       </provider>

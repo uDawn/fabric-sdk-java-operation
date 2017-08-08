@@ -284,7 +284,7 @@ public class Operation {
 
     private Channel reconstructChannel(String name, HFClient client, SampleOrg sampleOrg) throws Exception {
 
-        out("Running reconstruct");
+        out("Running reconstruct channel");
         client.setUserContext(sampleOrg.getPeerAdmin());
         Channel newChannel = client.newChannel(name);
 
