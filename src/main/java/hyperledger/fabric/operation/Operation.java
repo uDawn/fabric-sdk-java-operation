@@ -109,11 +109,11 @@ public class Operation {
                 SampleUser user = sampleStore.getMember(USER_1_NAME, sampleOrg.getName());
                 if (!user.isRegistered()) {  // users need to be registered AND enrolled
                     RegistrationRequest rr = new RegistrationRequest(user.getName(), "org1.department1");
-                    String tmp = ca.register(rr, admin);
-                    user.setEnrollmentSecret(tmp);
-                    File secret = new File("src/secret.txt");
-                    FileOutputStream write_secret = new FileOutputStream(secret, false);
-                    write_secret.write(tmp.getBytes());
+                    //String tmp = ca.register(rr, admin);
+                    user.setEnrollmentSecret("WVGtIRXqzfjA");
+                    //File secret = new File("src/secret.txt");
+                    //FileOutputStream write_secret = new FileOutputStream(secret, false);
+                    //write_secret.write(tmp.getBytes());
                 }
                 if (!user.isEnrolled()) {
                     user.setEnrollment(ca.enroll(user.getName(), user.getEnrollmentSecret()));
@@ -295,10 +295,10 @@ public class Operation {
             Peer peer = client.newPeer(peerName, peerLocation, testConfig.getPeerProperties(peerName));
 
             //Query the actual peer for which channels it belongs to and check it belongs to this channel
-            Set<String> channels = client.queryChannels(peer);
-            if (!channels.contains(name)) {
-                throw new AssertionError(format("Peer %s does not appear to belong to channel %s", peerName, name));
-            }
+            //Set<String> channels = client.queryChannels(peer);
+            //if (!channels.contains(name)) {
+                //throw new AssertionError(format("Peer %s does not appear to belong to channel %s", peerName, name));
+            //}
 
             newChannel.addPeer(peer);
             sampleOrg.addPeer(peer);
