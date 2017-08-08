@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: org.hyperledger.fabric-sdk-java:fabric-sdk-java:1.0.0">
+    <CLASSES>
+      <root url="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
