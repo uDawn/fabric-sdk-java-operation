@@ -196,6 +196,9 @@ public class Operation {
                     .setPath(CHAIN_CODE_PATH).build();
 
             this.myChannel = reconstructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
+            if(this.myChannel == null) {
+                out("mychannel null");
+            }
         }catch (Exception e){
 
         }
@@ -281,6 +284,7 @@ public class Operation {
 
     private Channel reconstructChannel(String name, HFClient client, SampleOrg sampleOrg) throws Exception {
 
+        out("Running reconstruct");
         client.setUserContext(sampleOrg.getPeerAdmin());
         Channel newChannel = client.newChannel(name);
 
@@ -340,7 +344,7 @@ public class Operation {
             }
 
         }
-
+        out("End reconstruct");
         return newChannel;
 
     }
