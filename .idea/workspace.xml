@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b9adc95-59c0-4ea0-a165-88d849cb7833" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestOper.java" afterPath="$PROJECT_DIR$/src/test/java/TestOper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,15 +30,13 @@
       <file leaf-file-name="Operation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="147" column="98" lean-forward="true" selection-start-line="147" selection-start-column="98" selection-end-line="147" selection-end-column="98" />
+            <state relative-caret-position="142">
+              <caret line="112" column="63" lean-forward="true" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
               <folding>
                 <element signature="method#Operation#0;class#Operation#0" expanded="false" />
                 <element signature="e#2685#2763#0" expanded="false" />
                 <element signature="e#3241#3255#0" expanded="false" />
                 <element signature="e#3783#3818#0" expanded="false" />
-                <element signature="e#4860#4903#0" expanded="false" />
-                <element signature="e#5153#5196#0" expanded="false" />
                 <element signature="e#6834#6862#0" expanded="false" />
                 <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
                 <element signature="e#9736#9764#0" expanded="false" />
@@ -499,11 +495,19 @@
       <option name="project" value="LOCAL" />
       <updated>1502176227689</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="second">
+      <created>1502178384638</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1502178384638</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -513,7 +517,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -571,8 +575,6 @@
             <element signature="e#2685#2763#0" expanded="false" />
             <element signature="e#3241#3255#0" expanded="false" />
             <element signature="e#3783#3818#0" expanded="false" />
-            <element signature="e#4860#4903#0" expanded="false" />
-            <element signature="e#5153#5196#0" expanded="false" />
             <element signature="e#6834#6862#0" expanded="false" />
             <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
             <element signature="e#9736#9764#0" expanded="false" />
@@ -632,8 +634,6 @@
             <element signature="e#2685#2763#0" expanded="false" />
             <element signature="e#3241#3255#0" expanded="false" />
             <element signature="e#3783#3818#0" expanded="false" />
-            <element signature="e#4860#4903#0" expanded="false" />
-            <element signature="e#5153#5196#0" expanded="false" />
             <element signature="e#6834#6862#0" expanded="false" />
             <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
             <element signature="e#9736#9764#0" expanded="false" />
@@ -683,8 +683,6 @@
             <element signature="e#2685#2763#0" expanded="false" />
             <element signature="e#3241#3255#0" expanded="false" />
             <element signature="e#3783#3818#0" expanded="false" />
-            <element signature="e#4860#4903#0" expanded="false" />
-            <element signature="e#5153#5196#0" expanded="false" />
             <element signature="e#6834#6862#0" expanded="false" />
             <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
             <element signature="e#9736#9764#0" expanded="false" />
@@ -880,15 +878,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="147" column="98" lean-forward="true" selection-start-line="147" selection-start-column="98" selection-end-line="147" selection-end-column="98" />
+        <state relative-caret-position="142">
+          <caret line="112" column="63" lean-forward="true" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
           <folding>
             <element signature="method#Operation#0;class#Operation#0" expanded="false" />
             <element signature="e#2685#2763#0" expanded="false" />
             <element signature="e#3241#3255#0" expanded="false" />
             <element signature="e#3783#3818#0" expanded="false" />
-            <element signature="e#4860#4903#0" expanded="false" />
-            <element signature="e#5153#5196#0" expanded="false" />
             <element signature="e#6834#6862#0" expanded="false" />
             <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
             <element signature="e#9736#9764#0" expanded="false" />
