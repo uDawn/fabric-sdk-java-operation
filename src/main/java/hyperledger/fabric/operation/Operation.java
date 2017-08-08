@@ -107,7 +107,7 @@ public class Operation {
                 sampleOrg.setAdmin(admin); // The admin of this org --
 
                 SampleUser user = sampleStore.getMember(USER_1_NAME, sampleOrg.getName());
-                if (!user.isRegistered()) {  // users need to be registered AND enrolled
+                /*if (!user.isRegistered()) {  // users need to be registered AND enrolled
                     //RegistrationRequest rr = new RegistrationRequest(user.getName(), "org1.department1");
                     //String tmp = ca.register(rr, admin);
                     user.setEnrollmentSecret("LpxYDjcunIGU");
@@ -118,7 +118,7 @@ public class Operation {
                 if (!user.isEnrolled()) {
                     user.setEnrollment(ca.enroll(user.getName(), user.getEnrollmentSecret()));
                     user.setMspId(mspid);
-                }
+                }*/
                 sampleOrg.addUser(user); //Remember user belongs to this Org
 
                 final String sampleOrgName = sampleOrg.getName();
