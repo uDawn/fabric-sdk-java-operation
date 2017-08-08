@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b9adc95-59c0-4ea0-a165-88d849cb7833" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestOper.java" afterPath="$PROJECT_DIR$/src/test/java/TestOper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -91,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestOper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestOper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="157">
+              <caret line="36" column="81" lean-forward="false" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,8 +140,8 @@
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdkintegration/Operation.java" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/operation.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/TestOper.java" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestOper.java" />
       </list>
     </option>
   </component>
@@ -510,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502178579659</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="second">
+      <created>1502178771067</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1502178771067</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -874,16 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -921,6 +918,16 @@
             <element signature="e#34405#34420#0" expanded="false" />
             <element signature="e#36029#36120#0" expanded="false" />
             <element signature="e#38254#38282#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="36" column="81" lean-forward="false" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
