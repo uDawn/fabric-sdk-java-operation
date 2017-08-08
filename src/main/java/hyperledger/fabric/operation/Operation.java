@@ -200,7 +200,7 @@ public class Operation {
                 out("mychannel null");
             }
         }catch (Exception e){
-
+            e.printStackTrace();
         }
 
     }
