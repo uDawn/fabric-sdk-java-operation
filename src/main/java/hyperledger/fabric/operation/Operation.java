@@ -58,7 +58,6 @@ public class Operation {
         this.CHAIN_CODE_VERSION = this.opProperties.getProperty("hyperledger.fabric.operation.chaincodeversion");
     }
 
-    @Test
     public void setup() throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, MalformedURLException {
         out("\n\n\nRUNNING: Operation.\n");
 
