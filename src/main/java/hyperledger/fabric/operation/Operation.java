@@ -109,11 +109,11 @@ public class Operation {
                 SampleUser user = sampleStore.getMember(USER_1_NAME, sampleOrg.getName());
                 if (!user.isRegistered()) {  // users need to be registered AND enrolled
                     RegistrationRequest rr = new RegistrationRequest(user.getName(), "org1.department1");
-                    //String tmp = ca.register(rr, admin);
-                    user.setEnrollmentSecret("WVGtIRXqzfjA");
-                    //File secret = new File("src/secret.txt");
-                    //FileOutputStream write_secret = new FileOutputStream(secret, false);
-                    //write_secret.write(tmp.getBytes());
+                    String tmp = ca.register(rr, admin);
+                    user.setEnrollmentSecret("tmp");
+                    File secret = new File("src/secret.txt");
+                    FileOutputStream write_secret = new FileOutputStream(secret, false);
+                    write_secret.write(tmp.getBytes());
                 }
                 if (!user.isEnrolled()) {
                     user.setEnrollment(ca.enroll(user.getName(), user.getEnrollmentSecret()));
