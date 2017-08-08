@@ -201,6 +201,7 @@ public class Operation {
             }
         }catch (Exception e){
             e.printStackTrace();
+            fail(e.getMessage());
         }
 
     }
