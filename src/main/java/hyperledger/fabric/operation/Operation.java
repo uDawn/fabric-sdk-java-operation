@@ -56,6 +56,7 @@ public class Operation {
         this.CHAIN_CODE_NAME = this.opProperties.getProperty("hyperledger.fabric.operation.chaincodename");
         this.CHAIN_CODE_PATH = this.opProperties.getProperty("hyperledger.fabric.operation.chaincodepath");
         this.CHAIN_CODE_VERSION = this.opProperties.getProperty("hyperledger.fabric.operation.chaincodeversion");
+        out(this.opProperties.getProperty("hyperledger.fabric.operation.channelpath"));
     }
 
     public void setup() throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, MalformedURLException {
