@@ -18,6 +18,7 @@ public class TestOper {
         String new_amount = "1000";
 
         Operation test_operation = new Operation("src/main/resources/operation.properties");
+        test_operation.setup();
         res_1 = test_operation.query("a");
         res_2 = test_operation.query("b");
         System.out.println(String.format("New construct res_1:%s , res_2:%s", res_1, res_2));
