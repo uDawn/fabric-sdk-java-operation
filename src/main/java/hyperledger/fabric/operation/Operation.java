@@ -142,10 +142,10 @@ public class Operation {
                     .setVersion(CHAIN_CODE_VERSION)
                     .setPath(CHAIN_CODE_PATH).build();
 
-            //this.myChannel = constructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
-            //this.installChaincode(this.client, this.myChannel, this.sampleOrg);
-            //this.instantiateChaincode(this.client, this.myChannel, this.sampleOrg);
-            this.myChannel = reconstructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
+            this.myChannel = constructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
+            this.installChaincode(this.client, this.myChannel, this.sampleOrg);
+            this.instantiateChaincode(this.client, this.myChannel, this.sampleOrg);
+            //this.myChannel = reconstructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
 
             /*String res_1 = "not1";
             String res_2 = "not2";
@@ -295,10 +295,10 @@ public class Operation {
             Peer peer = client.newPeer(peerName, peerLocation, testConfig.getPeerProperties(peerName));
 
             //Query the actual peer for which channels it belongs to and check it belongs to this channel
-            //Set<String> channels = client.queryChannels(peer);
-            //if (!channels.contains(name)) {
+            Set<String> channels = client.queryChannels(peer);
+            if (!channels.contains(name)) {
                 //throw new AssertionError(format("Peer %s does not appear to belong to channel %s", peerName, name));
-            //}
+            }
 
             newChannel.addPeer(peer);
             sampleOrg.addPeer(peer);
@@ -328,17 +328,17 @@ public class Operation {
         for (Peer peer : newChannel.getPeers()) {
 
             if (!checkInstalledChaincode(client, peer, CHAIN_CODE_NAME, CHAIN_CODE_PATH, CHAIN_CODE_VERSION)) {
-                /*throw new AssertionError(format("Peer %s is missing chaincode name: %s, path:%s, version: %s",
-                        peer.getName(), CHAIN_CODE_NAME, CHAIN_CODE_PATH, CHAIN_CODE_PATH));*/
-                this.installChaincode(client, newChannel, sampleOrg);
-                this.instantiateChaincode(client, newChannel, sampleOrg);
+                throw new AssertionError(format("Peer %s is missing chaincode name: %s, path:%s, version: %s",
+                        peer.getName(), CHAIN_CODE_NAME, CHAIN_CODE_PATH, CHAIN_CODE_PATH));
+                //this.installChaincode(client, newChannel, sampleOrg);
+                //this.instantiateChaincode(client, newChannel, sampleOrg);
             }
 
-            /*if (!checkInstantiatedChaincode(newChannel, peer, CHAIN_CODE_NAME, CHAIN_CODE_PATH, CHAIN_CODE_VERSION)) {
+            if (!checkInstantiatedChaincode(newChannel, peer, CHAIN_CODE_NAME, CHAIN_CODE_PATH, CHAIN_CODE_VERSION)) {
 
                 throw new AssertionError(format("Peer %s is missing instantiated chaincode name: %s, path:%s, version: %s",
                         peer.getName(), CHAIN_CODE_NAME, CHAIN_CODE_PATH, CHAIN_CODE_PATH));
-            }*/
+            }
 
         }
 
