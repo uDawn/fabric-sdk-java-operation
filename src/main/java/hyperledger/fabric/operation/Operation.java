@@ -156,9 +156,9 @@ public class Operation {
     public void reconstructSetup() {
 
         try{
-            HFClient client = HFClient.createNewInstance();
+            this.client = HFClient.createNewInstance();
 
-            client.setCryptoSuite(CryptoSuite.Factory.getCryptoSuite());
+            this.client.setCryptoSuite(CryptoSuite.Factory.getCryptoSuite());
 
             // client.setMemberServices(peerOrg1FabricCA);
 
