@@ -108,12 +108,12 @@ public class Operation {
 
                 SampleUser user = sampleStore.getMember(USER_1_NAME, sampleOrg.getName());
                 if (!user.isRegistered()) {  // users need to be registered AND enrolled
-                    RegistrationRequest rr = new RegistrationRequest(user.getName(), "org1.department1");
-                    String tmp = ca.register(rr, admin);
-                    user.setEnrollmentSecret(tmp);
-                    File secret = new File("src/secret.txt");
-                    FileOutputStream write_secret = new FileOutputStream(secret, false);
-                    write_secret.write(tmp.getBytes());
+                    //RegistrationRequest rr = new RegistrationRequest(user.getName(), "org1.department1");
+                    //String tmp = ca.register(rr, admin);
+                    user.setEnrollmentSecret("LpxYDjcunIGU");
+                    //File secret = new File("src/secret.txt");
+                    //FileOutputStream write_secret = new FileOutputStream(secret, false);
+                    //write_secret.write(tmp.getBytes());
                 }
                 if (!user.isEnrolled()) {
                     user.setEnrollment(ca.enroll(user.getName(), user.getEnrollmentSecret()));
@@ -142,10 +142,10 @@ public class Operation {
                     .setVersion(CHAIN_CODE_VERSION)
                     .setPath(CHAIN_CODE_PATH).build();
 
-            this.myChannel = constructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
-            this.installChaincode(this.client, this.myChannel, this.sampleOrg);
-            this.instantiateChaincode(this.client, this.myChannel, this.sampleOrg);
-            //this.myChannel = reconstructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
+            //this.myChannel = constructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
+            //this.installChaincode(this.client, this.myChannel, this.sampleOrg);
+            //this.instantiateChaincode(this.client, this.myChannel, this.sampleOrg);
+            this.myChannel = reconstructChannel(this.CHANNEL_NAME, this.client, this.sampleOrg);
 
             /*String res_1 = "not1";
             String res_2 = "not2";
