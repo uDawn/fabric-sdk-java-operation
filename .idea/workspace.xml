@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9adc95-59c0-4ea0-a165-88d849cb7833" name="Default" comment="second">
+    <list default="true" id="3b9adc95-59c0-4ea0-a165-88d849cb7833" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,24 +15,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3568">
-              <caret line="324" column="18" lean-forward="false" selection-start-line="324" selection-start-column="18" selection-end-line="324" selection-end-column="18" />
+            <state relative-caret-position="375">
+              <caret line="117" column="174" lean-forward="false" selection-start-line="117" selection-start-column="174" selection-end-line="117" selection-end-column="174" />
               <folding>
-                <element signature="e#0#13616#0" expanded="true" />
+                <element signature="e#0#13647#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="171" column="41" lean-forward="false" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="41" />
+            <state relative-caret-position="325">
+              <caret line="186" column="83" lean-forward="true" selection-start-line="186" selection-start-column="83" selection-end-line="186" selection-end-column="83" />
               <folding>
                 <element signature="method#Operation#0;class#Operation#0" expanded="false" />
                 <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
@@ -77,8 +77,8 @@
       <file leaf-file-name="HFCAClient.class" pinned="false" current-in-tab="false">
         <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric_ca/sdk/HFCAClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="310" column="62" lean-forward="true" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
+            <state relative-caret-position="5800">
+              <caret line="310" column="62" lean-forward="false" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -87,7 +87,7 @@
       <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="1625">
               <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
               <folding />
             </state>
@@ -97,7 +97,7 @@
       <file leaf-file-name="TestOper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
+            <state relative-caret-position="157">
               <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,7 +109,7 @@
       <file leaf-file-name="operation.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/operation.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="550">
               <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
               <folding />
             </state>
@@ -141,10 +141,10 @@
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdkintegration/End2endAndBackAgainIT.java" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdkintegration/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdkintegration/Operation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/operation.properties" />
         <option value="$PROJECT_DIR$/src/test/java/TestOper.java" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" />
       </list>
     </option>
   </component>
@@ -177,7 +177,7 @@
     <option name="height" value="688" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -190,54 +190,12 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="fabric-sdk-java-operation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fabric-sdk-java-operation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fabric-sdk-java-operation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fabric-sdk-java-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fabric-sdk-java-operation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fabric-sdk-java-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fabric-sdk-java-operation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fabric-sdk-java-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fabric-sdk-java-operation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fabric-sdk-java-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="operation" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -562,12 +520,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502183388836</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="second">
+      <created>1502183590985</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1502183590985</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -577,7 +541,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -617,10 +581,99 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7325">
+          <caret line="324" column="18" lean-forward="false" selection-start-line="324" selection-start-column="18" selection-end-line="324" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13647#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric_ca/sdk/HFCAClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5800">
+          <caret line="310" column="62" lean-forward="true" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/operation.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4275">
+          <caret line="171" column="41" lean-forward="false" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="41" />
+          <folding>
+            <element signature="method#Operation#0;class#Operation#0" expanded="false" />
+            <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
+            <element signature="e#2685#2763#0" expanded="false" />
+            <element signature="e#3241#3255#0" expanded="false" />
+            <element signature="e#3783#3818#0" expanded="false" />
+            <element signature="e#6813#6841#0" expanded="false" />
+            <element signature="e#7868#7914#0" expanded="false" />
+            <element signature="e#8386#8482#0" expanded="false" />
+            <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
+            <element signature="e#9876#9904#0" expanded="false" />
+            <element signature="e#10308#10387#0" expanded="false" />
+            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
+            <element signature="e#15390#15482#0" expanded="false" />
+            <element signature="e#15912#15967#0" expanded="false" />
+            <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
+            <element signature="e#17423#17451#0" expanded="false" />
+            <element signature="e#17791#17830#0" expanded="false" />
+            <element signature="e#18240#18268#0" expanded="false" />
+            <element signature="e#18409#18452#0" expanded="false" />
+            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
+            <element signature="method#out#0;class#Operation#0" expanded="false" />
+            <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
+            <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
+            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
+            <element signature="e#25267#25396#0" expanded="false" />
+            <element signature="e#25599#25614#0" expanded="false" />
+            <element signature="e#27268#27359#0" expanded="false" />
+            <element signature="e#29517#29545#0" expanded="false" />
+            <element signature="e#30117#30131#0" expanded="false" />
+            <element signature="method#query#0;class#Operation#0" expanded="false" />
+            <element signature="e#30670#30756#0" expanded="false" />
+            <element signature="method#initiate#0;class#Operation#0" expanded="false" />
+            <element signature="e#34641#34656#0" expanded="false" />
+            <element signature="e#36265#36356#0" expanded="false" />
+            <element signature="e#38490#38518#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2750">
           <caret line="133" column="52" lean-forward="false" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="52" />
           <folding>
-            <element signature="e#0#13616#0" expanded="true" />
+            <element signature="e#0#13647#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -856,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,13 +931,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="1625">
           <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
           <folding />
         </state>
@@ -896,14 +946,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24">
           <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric_ca/sdk/HFCAClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="310" column="62" lean-forward="true" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
+        <state relative-caret-position="5800">
+          <caret line="310" column="62" lean-forward="false" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -912,43 +961,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
           <caret line="524" column="20" lean-forward="false" selection-start-line="524" selection-start-column="20" selection-end-line="524" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/operation.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="550">
           <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3568">
-          <caret line="324" column="18" lean-forward="false" selection-start-line="324" selection-start-column="18" selection-end-line="324" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#13616#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="171" column="41" lean-forward="false" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="41" />
+        <state relative-caret-position="325">
+          <caret line="186" column="83" lean-forward="true" selection-start-line="186" selection-start-column="83" selection-end-line="186" selection-end-column="83" />
           <folding>
             <element signature="method#Operation#0;class#Operation#0" expanded="false" />
             <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
@@ -989,16 +1016,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="117" column="174" lean-forward="false" selection-start-line="117" selection-start-column="174" selection-end-line="117" selection-end-column="174" />
+          <folding>
+            <element signature="e#0#13647#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>fabric-sdk-java-operation:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
