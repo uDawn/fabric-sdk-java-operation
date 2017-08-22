@@ -17,8 +17,13 @@ public class TestOper {
         String new_account = "cc";
         String new_amount = "1000";
 
-        Operation test_operation = new Operation("src/main/resources/operation.properties");
-        /*test_operation.constructSetup();
+        Operation test_operation = new Operation();
+        //test_operation.constructSetup();
+        try{
+            test_operation.setup();
+        }catch (Throwable throwable){
+
+        }
         res_1 = test_operation.query("a");
         res_2 = test_operation.query("b");
         System.out.println(String.format("New construct res_1:%s , res_2:%s", res_1, res_2));
@@ -34,10 +39,10 @@ public class TestOper {
         test_operation.transfer("a" , new_account , "10");
         res_6 = test_operation.query("a");
         res_7 = test_operation.query(new_account);
-        System.out.println(String.format("res_6:%s , res_7:%s", res_6, res_7));*/
+        System.out.println(String.format("res_6:%s , res_7:%s", res_6, res_7));
 
         //Log logger = LogFactory.getLog(TestOper.class);
-        test_operation.reconstructSetup();
+
         res_1 = test_operation.query("a");
         res_2 = test_operation.query("b");
         System.out.println(String.format("Reconstructure  res_1:%s , res_2:%s" , res_1 , res_2));

@@ -43,7 +43,7 @@ import java.util.regex.Pattern;
 public class TestConfig {
     private static final Log logger = LogFactory.getLog(TestConfig.class);
 
-    private static final String DEFAULT_CONFIG = "src/java/org/hyperledger/fabric/operation/op.properties";
+    private static final String DEFAULT_CONFIG = "src/main/java/hyperledger/fabric/operation/op.properties";
     private static final String ORG_HYPERLEDGER_FABRIC_SDK_CONFIGURATION = "org.hyperledger.fabric.operation.configuration";
 
     private static final String PROPBASE = "org.hyperledger.fabric.operation.";
@@ -66,9 +66,7 @@ public class TestConfig {
     private final boolean runningFabricTLS;
     private static final HashMap<String, SampleOrg> sampleOrgs = new HashMap<>();
 
-    private static String propertyFilePath = null;
     private Properties operation_properties = new Properties();
-    private File propertyFile;
     private InputStream inStream ;
 
     private TestConfig() {
@@ -88,15 +86,15 @@ public class TestConfig {
 //                    DEFAULT_CONFIG));
         } finally {
             try{
-                this.propertyFile = new File(propertyFilePath);
-                this.inStream = new FileInputStream(this.propertyFile);
+                this.inStream = TestConfig.class.getResourceAsStream("/operation.properties");
                 this.operation_properties.load(this.inStream);
+                inStream.close();
             }catch(Exception e){
-
+                logger.error(String.format("Read properties: %s" , e.getMessage()));
             }
 
             // Default values
-
+            logger.debug(String.format("Configuration setup."));
             defaultProperty(GOSSIPWAITTIME, "5000");
             defaultProperty(INVOKEWAITTIME, "100000");
             defaultProperty(DEPLOYWAITTIME, "120000");
@@ -109,7 +107,7 @@ public class TestConfig {
             defaultProperty(INTEGRATIONTESTS_ORG + "peerOrg1.ca_location", "http://10.10.102.18:7054");
             defaultProperty(INTEGRATIONTESTS_ORG + "peerOrg1.peer_locations", "peer0.org1.example.com@grpc://10.10.102.18:7051, peer1.org1.example.com@grpc://10.10.102.18:7056");
             defaultProperty(INTEGRATIONTESTS_ORG + "peerOrg1.orderer_locations", "orderer.example.com@grpc://10.10.102.18:7050");
-            defaultProperty(INTEGRATIONTESTS_ORG + "peerOrg1.eventhub_locations", "peer0.org1.example.com@grpc://10.10.102.18,peer1.org1.example.com@grpc://10.10.102.18:7058");
+            defaultProperty(INTEGRATIONTESTS_ORG + "peerOrg1.eventhub_locations", "peer0.org1.example.com@grpc://10.10.102.18:7053,peer1.org1.example.com@grpc://10.10.102.18:7058");
             defaultProperty(INTEGRATIONTESTS_ORG + "peerOrg2.mspid", "Org2MSP");
             defaultProperty(INTEGRATIONTESTS_ORG + "peerOrg2.domname", "org2.example.com");
             defaultProperty(INTEGRATIONTESTS_ORG + "peerOrg2.ca_location", "http://10.10.102.18:8054");
@@ -183,17 +181,18 @@ public class TestConfig {
                     sampleOrg.setCAProperties(properties);
                 }
             }
-
+            logger.debug(String.format("Configuration end."));
         }
 
     }
 
     private String grpcTLSify(String location) {
         location = location.trim();
-        Exception e = Utils.checkGrpcUrl(location);
-        if (e != null) {
-            throw new RuntimeException(String.format("Bad TEST parameters for grpc url %s", location), e);
-        }
+        //Exception e = Utils.checkGrpcUrl(location);
+        //if (e != null) {
+            //e.printStackTrace();
+            //throw new RuntimeException(String.format("Bad TEST parameters for grpc url %s", location), e);
+        //}
         return runningFabricTLS ?
                 location.replaceFirst("^grpc://", "grpcs://") : location;
 
@@ -211,8 +210,7 @@ public class TestConfig {
      *
      * @return Global configuration
      */
-    public static TestConfig getConfig(String filePath) {
-        propertyFilePath = filePath;
+    public static TestConfig getConfig() {
         if (null == config) {
             config = new TestConfig();
         }

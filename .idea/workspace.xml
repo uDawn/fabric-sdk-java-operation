@@ -1,8 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="fabric-sdk-java-operation:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9adc95-59c0-4ea0-a165-88d849cb7833" name="Default" comment="">
+    <list default="true" id="3b9adc95-59c0-4ea0-a165-88d849cb7833" name="Default" comment="second">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/fabric_sdk_java_operation_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/.env" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/bar.tx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/configtx.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/ca/ca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/ca/fcf776b02a05600408d0be9d9752afc59f64950b721cacb363b5b95a0fea6216_sk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/msp/tlscacerts/ca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/signcerts/peer0.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/tlscacerts/ca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/signcerts/peer1.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/tlscacerts/ca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/ca.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/server.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/server.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/tlsca/418980b5f8d471909a4ce16b610957bf99e3ac4e7b9a3419125f7416d95bcffd_sk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlscacerts/ca.org1.example.com-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/tls/ca.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/foo.tx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/cas/peerOrg1/cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/cas/peerOrg1/key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/cas/peerOrg2/cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/cas/peerOrg2/key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/orderer/ca-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/orderer/cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/orderer/key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer0/ca-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer0/cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer0/key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer1/ca-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer1/cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer1/key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer2/ca-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer2/cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer2/key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer3/ca-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer3/cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer3/key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/gocc/sample1/src/github.com/example_cc/example_cc.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/gocc/sample_11/src/github.com/example_cc/example_cc.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/gocc/sample_11/src/github.com/example_cc/vendor/sdkintegration-test/utils/utils.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/javacc/example_cc/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/javacc/example_cc/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/javacc/example_cc/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/javacc/example_cc/src/main/java/example/SimpleChaincode.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/secret.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hyperledger/fabric/operation/SampleStore.class" afterPath="$PROJECT_DIR$/target/classes/hyperledger/fabric/operation/SampleStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fabric-sdk-java-operation.iml" afterPath="$PROJECT_DIR$/.idea/fabric-sdk-java-operation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hyperledger_fabric_sdk_java_fabric_sdk_java_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hyperledger_fabric_sdk_java_fabric_sdk_java_1_0_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleStore.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/operation.properties" afterPath="$PROJECT_DIR$/src/main/resources/operation.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestOper.java" afterPath="$PROJECT_DIR$/src/test/java/TestOper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,92 +89,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="117" column="174" lean-forward="false" selection-start-line="117" selection-start-column="174" selection-end-line="117" selection-end-column="174" />
+            <state relative-caret-position="1750">
+              <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
               <folding>
-                <element signature="e#0#13647#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="186" column="83" lean-forward="true" selection-start-line="186" selection-start-column="83" selection-end-line="186" selection-end-column="83" />
-              <folding>
-                <element signature="method#Operation#0;class#Operation#0" expanded="false" />
-                <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
-                <element signature="e#2685#2763#0" expanded="false" />
-                <element signature="e#3241#3255#0" expanded="false" />
-                <element signature="e#3783#3818#0" expanded="false" />
-                <element signature="e#6813#6841#0" expanded="false" />
-                <element signature="e#7868#7914#0" expanded="false" />
-                <element signature="e#8386#8482#0" expanded="false" />
-                <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
-                <element signature="e#9876#9904#0" expanded="false" />
-                <element signature="e#10308#10387#0" expanded="false" />
-                <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
-                <element signature="e#15390#15482#0" expanded="false" />
-                <element signature="e#15912#15967#0" expanded="false" />
-                <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-                <element signature="e#17423#17451#0" expanded="false" />
-                <element signature="e#17791#17830#0" expanded="false" />
-                <element signature="e#18240#18268#0" expanded="false" />
-                <element signature="e#18409#18452#0" expanded="false" />
-                <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
-                <element signature="method#out#0;class#Operation#0" expanded="false" />
-                <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
-                <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-                <element signature="method#transfer#0;class#Operation#0" expanded="false" />
-                <element signature="e#25267#25396#0" expanded="false" />
-                <element signature="e#25599#25614#0" expanded="false" />
-                <element signature="e#27268#27359#0" expanded="false" />
-                <element signature="e#29517#29545#0" expanded="false" />
-                <element signature="e#30117#30131#0" expanded="false" />
-                <element signature="method#query#0;class#Operation#0" expanded="false" />
-                <element signature="e#30670#30756#0" expanded="false" />
-                <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-                <element signature="e#34641#34656#0" expanded="false" />
-                <element signature="e#36265#36356#0" expanded="false" />
-                <element signature="e#38490#38518#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HFCAClient.class" pinned="false" current-in-tab="false">
-        <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric_ca/sdk/HFCAClient.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5800">
-              <caret line="310" column="62" lean-forward="false" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1625">
-              <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestOper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#TestConfig#0" expanded="false" />
+                <element signature="e#3642#3686#0" expanded="false" />
+                <element signature="method#grpcTLSify#0;class#TestConfig#0" expanded="false" />
+                <element signature="e#9459#9504#0" expanded="false" />
+                <element signature="method#httpTLSify#0;class#TestConfig#0" expanded="false" />
+                <element signature="docComment;method#getConfig#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getConfig#0;class#TestConfig#0" expanded="false" />
+                <element signature="docComment;method#getProperty#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getProperty#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#defaultProperty#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getIntegrationTestsSampleOrgs#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getIntegrationTestsSampleOrg#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getPeerProperties#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getOrdererProperties#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getEndPointProperties#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getEventHubProperties#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getTestChannelPath#0;class#TestConfig#0" expanded="false" />
+                <element signature="method#getDomainName#0;class#TestConfig#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -108,8 +121,80 @@
       <file leaf-file-name="operation.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/operation.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+            <state relative-caret-position="500">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestOper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8625">
+              <caret line="374" column="105" lean-forward="false" selection-start-line="374" selection-start-column="105" selection-end-line="374" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2304#2382#0" expanded="false" />
+                <element signature="e#2860#2874#0" expanded="false" />
+                <element signature="e#3405#3440#0" expanded="false" />
+                <element signature="e#4781#4813#0" expanded="false" />
+                <element signature="e#6515#6543#0" expanded="false" />
+                <element signature="e#7559#7587#0" expanded="false" />
+                <element signature="e#8010#8089#0" expanded="false" />
+                <element signature="e#12087#12115#0" expanded="false" />
+                <element signature="e#12463#12502#0" expanded="false" />
+                <element signature="e#12920#12948#0" expanded="false" />
+                <element signature="e#13089#13132#0" expanded="false" />
+                <element signature="e#18418#18464#0" expanded="false" />
+                <element signature="e#18939#19035#0" expanded="false" />
+                <element signature="e#20293#20315#0" expanded="false" />
+                <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
+                <element signature="e#22656#22748#0" expanded="false" />
+                <element signature="e#23411#23466#0" expanded="false" />
+                <element signature="method#out#0;class#Operation#0" expanded="false" />
+                <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
+                <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
+                <element signature="e#26818#26947#0" expanded="false" />
+                <element signature="e#27150#27165#0" expanded="false" />
+                <element signature="e#28850#28941#0" expanded="false" />
+                <element signature="e#31212#31226#0" expanded="false" />
+                <element signature="method#query#0;class#Operation#0" expanded="false" />
+                <element signature="e#31771#31857#0" expanded="false" />
+                <element signature="method#initiate#0;class#Operation#0" expanded="false" />
+                <element signature="e#35501#35516#0" expanded="false" />
+                <element signature="e#37151#37242#0" expanded="false" />
+                <element signature="e#39896#39924#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -122,7 +207,13 @@
       <find>get</find>
       <find>getChannel</find>
       <find>getChannelConfigurationBytes</find>
+      <find>debug</find>
+      <find>example_cc</find>
+      <find>assert</find>
     </findStrings>
+    <replaceStrings>
+      <replace>info</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,15 +226,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdk/PeerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdkintegration/End2endAndBackAgainIT.java" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdkintegration/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdkintegration/Operation.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class" />
+        <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleStore.java" />
         <option value="$PROJECT_DIR$/src/main/resources/operation.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/TestOper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestOper.java" />
       </list>
     </option>
   </component>
@@ -176,7 +272,7 @@
     <option name="height" value="688" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -189,24 +285,68 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fabric-sdk-java-operation" type="1abcf292:AndroidViewProjectNode" />
+              <item name="fabric-sdk-java-operation" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="fabric-sdk-java-operation" type="1abcf292:AndroidViewProjectNode" />
+              <item name="fabric-sdk-java-operation" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="fabric-sdk-java-operation" type="1abcf292:AndroidViewProjectNode" />
+              <item name="fabric-sdk-java-operation" type="1039202d:NonAndroidModuleNode" />
+              <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fabric-sdk-java-operation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fabric-sdk-java-operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\main\resources" />
+      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\blockchain-file" />
+      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\test" />
+      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\main\fabric-file" />
+      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\main\java\hyperledger\fabric\operation" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="hyperledger.fabric.sdkintegration" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\main\resources" />
-      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\main\java\hyperledger\fabric\operation" />
-      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\main\java" />
+      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\test" />
+      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src" />
+      <recent name="G:\LocalGitRepository\fabric-sdk-java-operation\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -533,26 +673,43 @@
       <option name="project" value="LOCAL" />
       <updated>1502264300379</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="second">
+      <created>1502264538562</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1502264538562</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2606383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18389058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25379938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -564,8 +721,9 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1176" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33442622" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -585,269 +743,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7325">
-          <caret line="324" column="18" lean-forward="false" selection-start-line="324" selection-start-column="18" selection-end-line="324" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#13647#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric_ca/sdk/HFCAClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5800">
-          <caret line="310" column="62" lean-forward="true" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/operation.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4275">
-          <caret line="171" column="41" lean-forward="false" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="41" />
-          <folding>
-            <element signature="method#Operation#0;class#Operation#0" expanded="false" />
-            <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
-            <element signature="e#2685#2763#0" expanded="false" />
-            <element signature="e#3241#3255#0" expanded="false" />
-            <element signature="e#3783#3818#0" expanded="false" />
-            <element signature="e#6813#6841#0" expanded="false" />
-            <element signature="e#7868#7914#0" expanded="false" />
-            <element signature="e#8386#8482#0" expanded="false" />
-            <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#9876#9904#0" expanded="false" />
-            <element signature="e#10308#10387#0" expanded="false" />
-            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#15390#15482#0" expanded="false" />
-            <element signature="e#15912#15967#0" expanded="false" />
-            <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#17423#17451#0" expanded="false" />
-            <element signature="e#17791#17830#0" expanded="false" />
-            <element signature="e#18240#18268#0" expanded="false" />
-            <element signature="e#18409#18452#0" expanded="false" />
-            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#out#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
-            <element signature="e#25267#25396#0" expanded="false" />
-            <element signature="e#25599#25614#0" expanded="false" />
-            <element signature="e#27268#27359#0" expanded="false" />
-            <element signature="e#29517#29545#0" expanded="false" />
-            <element signature="e#30117#30131#0" expanded="false" />
-            <element signature="method#query#0;class#Operation#0" expanded="false" />
-            <element signature="e#30670#30756#0" expanded="false" />
-            <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-            <element signature="e#34641#34656#0" expanded="false" />
-            <element signature="e#36265#36356#0" expanded="false" />
-            <element signature="e#38490#38518#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2750">
-          <caret line="133" column="52" lean-forward="false" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#13647#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8325">
-          <caret line="333" column="73" lean-forward="true" selection-start-line="333" selection-start-column="73" selection-end-line="333" selection-end-column="73" />
-          <folding>
-            <element signature="method#Operation#0;class#Operation#0" expanded="false" />
-            <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
-            <element signature="e#2685#2763#0" expanded="false" />
-            <element signature="e#3241#3255#0" expanded="false" />
-            <element signature="e#3783#3818#0" expanded="false" />
-            <element signature="e#6813#6841#0" expanded="false" />
-            <element signature="e#7868#7914#0" expanded="false" />
-            <element signature="e#8386#8482#0" expanded="false" />
-            <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#9876#9904#0" expanded="false" />
-            <element signature="e#10308#10387#0" expanded="false" />
-            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#15390#15482#0" expanded="false" />
-            <element signature="e#15912#15967#0" expanded="false" />
-            <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#17423#17451#0" expanded="false" />
-            <element signature="e#17791#17830#0" expanded="false" />
-            <element signature="e#18240#18268#0" expanded="false" />
-            <element signature="e#18409#18452#0" expanded="false" />
-            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#out#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
-            <element signature="e#25267#25396#0" expanded="false" />
-            <element signature="e#25599#25614#0" expanded="false" />
-            <element signature="e#27268#27359#0" expanded="false" />
-            <element signature="e#29517#29545#0" expanded="false" />
-            <element signature="e#30117#30131#0" expanded="false" />
-            <element signature="method#query#0;class#Operation#0" expanded="false" />
-            <element signature="e#30670#30756#0" expanded="false" />
-            <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-            <element signature="e#34641#34656#0" expanded="false" />
-            <element signature="e#36265#36356#0" expanded="false" />
-            <element signature="e#38490#38518#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/operation.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-          <folding>
-            <element signature="method#Operation#0;class#Operation#0" expanded="false" />
-            <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
-            <element signature="e#2685#2763#0" expanded="false" />
-            <element signature="e#3241#3255#0" expanded="false" />
-            <element signature="e#3783#3818#0" expanded="false" />
-            <element signature="e#6813#6841#0" expanded="false" />
-            <element signature="e#7868#7914#0" expanded="false" />
-            <element signature="e#8386#8482#0" expanded="false" />
-            <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#9876#9904#0" expanded="false" />
-            <element signature="e#10308#10387#0" expanded="false" />
-            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#15390#15482#0" expanded="false" />
-            <element signature="e#15912#15967#0" expanded="false" />
-            <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#17423#17451#0" expanded="false" />
-            <element signature="e#17791#17830#0" expanded="false" />
-            <element signature="e#18240#18268#0" expanded="false" />
-            <element signature="e#18409#18452#0" expanded="false" />
-            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#out#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
-            <element signature="e#25267#25396#0" expanded="false" />
-            <element signature="e#25599#25614#0" expanded="false" />
-            <element signature="e#27268#27359#0" expanded="false" />
-            <element signature="e#29517#29545#0" expanded="false" />
-            <element signature="e#30117#30131#0" expanded="false" />
-            <element signature="method#query#0;class#Operation#0" expanded="false" />
-            <element signature="e#30670#30756#0" expanded="false" />
-            <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-            <element signature="e#34641#34656#0" expanded="false" />
-            <element signature="e#36265#36356#0" expanded="false" />
-            <element signature="e#38490#38518#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Operation#0;class#Operation#0" expanded="false" />
-            <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
-            <element signature="e#2685#2763#0" expanded="false" />
-            <element signature="e#3241#3255#0" expanded="false" />
-            <element signature="e#3783#3818#0" expanded="false" />
-            <element signature="e#6813#6841#0" expanded="false" />
-            <element signature="e#7868#7914#0" expanded="false" />
-            <element signature="e#8386#8482#0" expanded="false" />
-            <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#9876#9904#0" expanded="false" />
-            <element signature="e#10308#10387#0" expanded="false" />
-            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#15390#15482#0" expanded="false" />
-            <element signature="e#15912#15967#0" expanded="false" />
-            <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#17423#17451#0" expanded="false" />
-            <element signature="e#17791#17830#0" expanded="false" />
-            <element signature="e#18240#18268#0" expanded="false" />
-            <element signature="e#18409#18452#0" expanded="false" />
-            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#out#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
-            <element signature="e#25267#25396#0" expanded="false" />
-            <element signature="e#25599#25614#0" expanded="false" />
-            <element signature="e#27268#27359#0" expanded="false" />
-            <element signature="e#29517#29545#0" expanded="false" />
-            <element signature="e#30117#30131#0" expanded="false" />
-            <element signature="method#query#0;class#Operation#0" expanded="false" />
-            <element signature="e#30670#30756#0" expanded="false" />
-            <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-            <element signature="e#34641#34656#0" expanded="false" />
-            <element signature="e#36265#36356#0" expanded="false" />
-            <element signature="e#38490#38518#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,14 +755,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdkintegration/End2endIT.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdk/transaction/InstallProposalBuilderTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdk/transaction/InstantiateProposalBuilderTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdkintegration/UpdateChannelIT.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric_ca/sdk/EnrollmentRequestTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/sdk/PeerTest.java" />
@@ -873,13 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric-sdk-java/fabric-sdk-java/1.0.0/fabric-sdk-java-1.0.0.jar!/org/hyperledger/fabric/sdk/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -897,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/META-INF/maven/org.hyperledger.fabric-sdk-java/fabric-sdk-java/pom.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric/sdk/helper/Config.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1700">
@@ -911,55 +788,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/secret.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/secret.txt" />
     <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric/sdk/HFClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24">
           <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric_ca/sdk/HFCAClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5800">
-          <caret line="310" column="62" lean-forward="false" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,76 +803,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/operation.properties">
+    <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/META-INF/maven/org.hyperledger.fabric-sdk-java/fabric-sdk-java/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="90" column="23" lean-forward="false" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric_ca/sdk/HFCAClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5800">
+          <caret line="310" column="62" lean-forward="false" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/IdeaWorkSpace/fabric-sdk-java/target/fabric-sdk-java-1.0.1-SNAPSHOT.jar!/org/hyperledger/fabric/sdk/helper/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="185" column="29" lean-forward="false" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/DevelopeSoftware/Java/jdk1.8.0_112/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="375" column="18" lean-forward="false" selection-start-line="375" selection-start-column="18" selection-end-line="375" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric-sdk-java/fabric-sdk-java/1.0.0/fabric-sdk-java-1.0.0.jar!/org/hyperledger/fabric/sdk/security/CryptoSuite.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/fabric-file/blockchainfile/.env" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="101" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="16" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar!/org/bouncycastle/util/encoders/Hex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain-file/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric-sdk-java/fabric-sdk-java/1.0.0/fabric-sdk-java-1.0.0.jar!/org/hyperledger/fabric/sdk/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleOrg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="169" column="22" lean-forward="true" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/HFCSampletest.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric-sdk-java/fabric-sdk-java/1.0.0/fabric-sdk-java-1.0.0.jar!/org/hyperledger/fabric/sdk/HFClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/foo.tx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/orderer.block">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/DevelopeSoftware/Java/jdk1.8.0_112/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="954" column="25" lean-forward="false" selection-start-line="954" selection-start-column="25" selection-end-line="954" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/DevelopeSoftware/Java/jdk1.8.0_112/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8225">
+          <caret line="370" column="37" lean-forward="false" selection-start-line="370" selection-start-column="37" selection-end-line="370" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="132" column="26" lean-forward="true" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-415">
+          <caret line="80" column="53" lean-forward="true" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric-sdk-java/fabric-sdk-java/1.0.0/fabric-sdk-java-1.0.0.jar!/org/hyperledger/fabric/sdk/InstallProposalRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain-file/gocc/sample1/src/github.com/example_cc/example_cc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="31" column="78" lean-forward="true" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric-sdk-java/fabric-sdk-java/1.0.0/fabric-sdk-java-1.0.0.jar!/org/hyperledger/fabric/sdk/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="1160" column="54" lean-forward="true" selection-start-line="1160" selection-start-column="54" selection-end-line="1160" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/DevelopeSoftware/Java/jdk1.8.0_112/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="186" column="83" lean-forward="true" selection-start-line="186" selection-start-column="83" selection-end-line="186" selection-end-column="83" />
-          <folding>
-            <element signature="method#Operation#0;class#Operation#0" expanded="false" />
-            <element signature="method#constructSetup#0;class#Operation#0" expanded="false" />
-            <element signature="e#2685#2763#0" expanded="false" />
-            <element signature="e#3241#3255#0" expanded="false" />
-            <element signature="e#3783#3818#0" expanded="false" />
-            <element signature="e#6813#6841#0" expanded="false" />
-            <element signature="e#7868#7914#0" expanded="false" />
-            <element signature="e#8386#8482#0" expanded="false" />
-            <element signature="method#constructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#9876#9904#0" expanded="false" />
-            <element signature="e#10308#10387#0" expanded="false" />
-            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
-            <element signature="e#15390#15482#0" expanded="false" />
-            <element signature="e#15912#15967#0" expanded="false" />
-            <element signature="method#installChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="e#17423#17451#0" expanded="false" />
-            <element signature="e#17791#17830#0" expanded="false" />
-            <element signature="e#18240#18268#0" expanded="false" />
-            <element signature="e#18409#18452#0" expanded="false" />
-            <element signature="method#instantiateChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#out#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
-            <element signature="method#transfer#0;class#Operation#0" expanded="false" />
-            <element signature="e#25267#25396#0" expanded="false" />
-            <element signature="e#25599#25614#0" expanded="false" />
-            <element signature="e#27268#27359#0" expanded="false" />
-            <element signature="e#29517#29545#0" expanded="false" />
-            <element signature="e#30117#30131#0" expanded="false" />
-            <element signature="method#query#0;class#Operation#0" expanded="false" />
-            <element signature="e#30670#30756#0" expanded="false" />
-            <element signature="method#initiate#0;class#Operation#0" expanded="false" />
-            <element signature="e#34641#34656#0" expanded="false" />
-            <element signature="e#36265#36356#0" expanded="false" />
-            <element signature="e#38490#38518#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="117" column="174" lean-forward="false" selection-start-line="117" selection-start-column="174" selection-end-line="117" selection-end-column="174" />
+        <state relative-caret-position="1750">
+          <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
           <folding>
-            <element signature="e#0#13647#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TestConfig#0" expanded="false" />
+            <element signature="e#3642#3686#0" expanded="false" />
+            <element signature="method#grpcTLSify#0;class#TestConfig#0" expanded="false" />
+            <element signature="e#9459#9504#0" expanded="false" />
+            <element signature="method#httpTLSify#0;class#TestConfig#0" expanded="false" />
+            <element signature="docComment;method#getConfig#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getConfig#0;class#TestConfig#0" expanded="false" />
+            <element signature="docComment;method#getProperty#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getProperty#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#defaultProperty#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getIntegrationTestsSampleOrgs#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getIntegrationTestsSampleOrg#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getPeerProperties#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getOrdererProperties#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getEndPointProperties#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getEventHubProperties#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getTestChannelPath#0;class#TestConfig#0" expanded="false" />
+            <element signature="method#getDomainName#0;class#TestConfig#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8625">
+          <caret line="374" column="105" lean-forward="false" selection-start-line="374" selection-start-column="105" selection-end-line="374" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2304#2382#0" expanded="false" />
+            <element signature="e#2860#2874#0" expanded="false" />
+            <element signature="e#3405#3440#0" expanded="false" />
+            <element signature="e#4781#4813#0" expanded="false" />
+            <element signature="e#6515#6543#0" expanded="false" />
+            <element signature="e#7559#7587#0" expanded="false" />
+            <element signature="e#8010#8089#0" expanded="false" />
+            <element signature="e#12087#12115#0" expanded="false" />
+            <element signature="e#12463#12502#0" expanded="false" />
+            <element signature="e#12920#12948#0" expanded="false" />
+            <element signature="e#13089#13132#0" expanded="false" />
+            <element signature="e#18418#18464#0" expanded="false" />
+            <element signature="e#18939#19035#0" expanded="false" />
+            <element signature="e#20293#20315#0" expanded="false" />
+            <element signature="method#reconstructChannel#0;class#Operation#0" expanded="false" />
+            <element signature="e#22656#22748#0" expanded="false" />
+            <element signature="e#23411#23466#0" expanded="false" />
+            <element signature="method#out#0;class#Operation#0" expanded="false" />
+            <element signature="method#checkInstalledChaincode#0;class#Operation#0" expanded="false" />
+            <element signature="method#checkInstantiatedChaincode#0;class#Operation#0" expanded="false" />
+            <element signature="e#26818#26947#0" expanded="false" />
+            <element signature="e#27150#27165#0" expanded="false" />
+            <element signature="e#28850#28941#0" expanded="false" />
+            <element signature="e#31212#31226#0" expanded="false" />
+            <element signature="method#query#0;class#Operation#0" expanded="false" />
+            <element signature="e#31771#31857#0" expanded="false" />
+            <element signature="method#initiate#0;class#Operation#0" expanded="false" />
+            <element signature="e#35501#35516#0" expanded="false" />
+            <element signature="e#37151#37242#0" expanded="false" />
+            <element signature="e#39896#39924#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/operation.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>

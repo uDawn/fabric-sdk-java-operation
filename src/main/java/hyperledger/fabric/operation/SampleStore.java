@@ -43,7 +43,7 @@ public class SampleStore {
 
     public SampleStore(File file) {
 
-        this.file = file.getAbsolutePath();
+        this.file = file.getPath();
     }
 
     /**

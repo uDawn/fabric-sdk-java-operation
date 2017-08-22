@@ -9,7 +9,7 @@
         <module name="fabric-sdk-java-operation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="fabric-sdk-java-operation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
