@@ -1,7 +1,22 @@
 package hyperledger.fabric.operation;
 
+import com.google.common.base.Charsets;
+import com.google.gson.Gson;
+import com.google.protobuf.ByteString;
+import com.google.protobuf.Descriptors;
+import com.google.protobuf.InvalidProtocolBufferException;
+import com.google.protobuf.Message;
+import hyperledger.fabric.beans.KeyHistory;
+import hyperledger.fabric.beans.KeyModifications;
+import io.netty.handler.codec.protobuf.ProtobufDecoder;
+import io.netty.util.internal.StringUtil;
+import org.apache.commons.codec.binary.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.hyperledger.fabric.protos.common.Common;
+import org.hyperledger.fabric.protos.peer.Chaincode;
+import org.hyperledger.fabric.protos.peer.FabricProposal;
+import org.hyperledger.fabric.protos.peer.FabricTransaction;
 import org.hyperledger.fabric.protos.peer.Query;
 import org.hyperledger.fabric.sdk.*;
 import org.hyperledger.fabric.sdk.exception.InvalidArgumentException;
@@ -9,14 +24,18 @@ import org.hyperledger.fabric.sdk.exception.ProposalException;
 import org.hyperledger.fabric.sdk.security.CryptoSuite;
 import org.hyperledger.fabric_ca.sdk.HFCAClient;
 import org.hyperledger.fabric_ca.sdk.RegistrationRequest;
+import org.mozilla.universalchardet.UniversalDetector;
 
 import java.io.File;
 import java.nio.ByteBuffer;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 import static java.lang.String.format;
+import static java.nio.charset.StandardCharsets.UTF_16BE;
+import static java.nio.charset.StandardCharsets.UTF_16LE;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.junit.Assert.fail;
 
@@ -413,7 +432,7 @@ public class Operation {
 
     private Channel reconstructChannel(String name, HFClient client, SampleOrg sampleOrg) throws Exception {
 
-        try{
+        try {
             logger.info("Running reconstruct channel");
             client.setUserContext(sampleOrg.getPeerAdmin());
             Channel newChannel = client.newChannel(name);
@@ -479,7 +498,7 @@ public class Operation {
             }
             logger.info("End reconstruct");
             return newChannel;
-        }catch (Exception e){
+        } catch (Exception e) {
             throw e;
         }
     }
@@ -529,6 +548,95 @@ public class Operation {
         }
 
         return found;
+    }
+
+    public KeyHistory queryHistoryByAccount(String accName) {
+        KeyHistory history = new KeyHistory();
+        this.myChannel.setTransactionWaitTime(testConfig.getTransactionWaitTime());
+        this.myChannel.setDeployWaitTime(testConfig.getDeployWaitTime());
+        final String channelName = this.myChannel.getName();
+        String chaincodeHistoryJson;
+
+        logger.info(String.format("Running queryHistory of account %s on channel %s.", accName, channelName));
+        try {
+
+            ////////////////////////////
+            // Send Query Proposal to all peers
+            //
+            // String expect = "300";
+            logger.info(String.format("Now query chaincode for the history of %s.", accName));
+            QueryByChaincodeRequest queryByChaincodeRequest = client.newQueryProposalRequest();
+            queryByChaincodeRequest.setArgs(new String[]{accName});
+            queryByChaincodeRequest.setFcn("queryHistory");
+            queryByChaincodeRequest.setChaincodeID(chaincodeID);
+
+            Map<String, byte[]> tm2 = new HashMap<>();
+            tm2.put("HyperLedgerFabric", "QueryByChaincodeRequest:JavaSDK".getBytes(UTF_8));
+            tm2.put("method", "QueryByChaincodeRequest".getBytes(UTF_8));
+            queryByChaincodeRequest.setTransientMap(tm2);
+
+            Collection<ProposalResponse> queryProposals = this.myChannel.queryByChaincode(queryByChaincodeRequest, this.myChannel.getPeers());
+            for (ProposalResponse proposalResponse : queryProposals) {
+                if (!proposalResponse.isVerified() || proposalResponse.getStatus() != ProposalResponse.Status.SUCCESS) {
+                    logger.error("Failed query proposal from peer " + proposalResponse.getPeer().getName() + " status: " + proposalResponse.getStatus() +
+                            ". Messages: " + proposalResponse.getMessage()
+                            + ". Was verified : " + proposalResponse.isVerified());
+                    fail("Failed query proposal from peer " + proposalResponse.getPeer().getName() + " status: " + proposalResponse.getStatus() +
+                            ". Messages: " + proposalResponse.getMessage()
+                            + ". Was verified : " + proposalResponse.isVerified());
+                } else {
+                    byte[] payloadByteArr = proposalResponse.getProposalResponse().getResponse().getPayload().toByteArray();
+                    chaincodeHistoryJson = new String(payloadByteArr);
+                    Gson gson = new Gson();
+                    KeyModifications keyModi = gson.fromJson(chaincodeHistoryJson, KeyModifications.class);
+                    for (KeyModifications.ModicationItem modicationItem : keyModi.getHistory()) {
+                        KeyHistory.KeyHistoryItem historyItem = new KeyHistory.KeyHistoryItem();
+                        historyItem.setTimeStamp(modicationItem.getTimestamp());
+                        historyItem.setTxID(modicationItem.getTxId());
+                        historyItem.setCurrentValue(Double.parseDouble(modicationItem.getValue()));
+
+
+                        // TODO: Get the payload of Tx and then complete the rest fields of historyItem
+                        TransactionInfo mTxInfo = this.myChannel.queryTransactionByID(modicationItem.getTxId());
+
+                        FabricTransaction.Transaction pTx = FabricTransaction.
+                                Transaction.parseFrom(mTxInfo.getProcessedTransaction().toByteArray());
+
+
+                        logger.info("TxInfo");
+
+
+                        /*
+                        UniversalDetector detector = new UniversalDetector(null);
+                        detector.handleData(payload, 0, payload.length);
+                        detector.dataEnd();
+                        */
+
+                        logger.info(pTx.getActions(0).getPayload());
+                        Common.Payload pay = Common.Payload.parseFrom(mTxInfo.getEnvelope().getPayload());
+
+                        /*
+                        Map<Descriptors.FieldDescriptor, Object> fields = pay.getAllFields();
+                        for (Descriptors.FieldDescriptor key : fields.keySet()) {
+                            logger.info("key: " + key.getFullName());
+                            if (key.getType() == Descriptors.FieldDescriptor.Type.BYTES) {
+                                logger.info("value: " + ((ByteString) fields.get(key)));
+                            }
+
+                        }
+                        */
+
+                        history.addItem(historyItem);
+                    }
+                    logger.info(String.format("Query key modification history of %s from peer %s returned %s", accName, proposalResponse.getPeer().getName(), chaincodeHistoryJson));
+                }
+            }
+            logger.info(String.format("End queryHistory of account %s on channel %s.", accName, channelName));
+            return history;
+        } catch (InvalidArgumentException | InvalidProtocolBufferException | ProposalException e) {
+            e.printStackTrace();
+        }
+        return history;
     }
 
     public boolean transfer(String account_1, String account_2, String amount) {
@@ -662,7 +770,6 @@ public class Operation {
                     //String payload = proposalResponse.getProposalResponse().getResponse().getPayload().toStringUtf8();
                     tmp_amount = Double.toString(payload);
                     logger.info(String.format("Query payload of %s from peer %s returned %s", account, proposalResponse.getPeer().getName(), payload));
-                    // assertEquals(payload, expect);
                 }
             }
             logger.info(String.format("End query on channel %s.", channelName));
