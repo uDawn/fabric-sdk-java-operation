@@ -6,78 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9adc95-59c0-4ea0-a165-88d849cb7833" name="Default" comment="second">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/fabric_sdk_java_operation_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/.env" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/bar.tx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/configtx.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/ca/ca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/ca/fcf776b02a05600408d0be9d9752afc59f64950b721cacb363b5b95a0fea6216_sk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/msp/tlscacerts/ca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/signcerts/peer0.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/tlscacerts/ca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/signcerts/peer1.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/msp/tlscacerts/ca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/ca.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/server.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/server.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/tlsca/418980b5f8d471909a4ce16b610957bf99e3ac4e7b9a3419125f7416d95bcffd_sk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlscacerts/ca.org1.example.com-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/tls/ca.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/channel/foo.tx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/cas/peerOrg1/cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/cas/peerOrg1/key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/cas/peerOrg2/cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/cas/peerOrg2/key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/orderer/ca-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/orderer/cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/orderer/key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer0/ca-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer0/cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer0/key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer1/ca-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer1/cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer1/key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer2/ca-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer2/cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer2/key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer3/ca-cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer3/cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/e2e-2Orgs/tls/peers/peer3/key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/gocc/sample1/src/github.com/example_cc/example_cc.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/gocc/sample_11/src/github.com/example_cc/example_cc.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/gocc/sample_11/src/github.com/example_cc/vendor/sdkintegration-test/utils/utils.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/javacc/example_cc/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/javacc/example_cc/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/javacc/example_cc/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blockchain-file/javacc/example_cc/src/main/java/example/SimpleChaincode.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/secret.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hyperledger/fabric/operation/SampleStore.class" afterPath="$PROJECT_DIR$/target/classes/hyperledger/fabric/operation/SampleStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fabric-sdk-java-operation.iml" afterPath="$PROJECT_DIR$/.idea/fabric-sdk-java-operation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hyperledger_fabric_sdk_java_fabric_sdk_java_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hyperledger_fabric_sdk_java_fabric_sdk_java_1_0_0.xml" />
+    <list default="true" id="3b9adc95-59c0-4ea0-a165-88d849cb7833" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleStore.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleStore.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" afterPath="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/operation.properties" afterPath="$PROJECT_DIR$/src/main/resources/operation.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestOper.java" afterPath="$PROJECT_DIR$/src/test/java/TestOper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,30 +20,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1750">
-              <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+            <state relative-caret-position="142">
+              <caret line="106" column="41" lean-forward="false" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
               <folding>
                 <element signature="docComment;class#TestConfig#0" expanded="false" />
                 <element signature="e#3642#3686#0" expanded="false" />
-                <element signature="method#grpcTLSify#0;class#TestConfig#0" expanded="false" />
-                <element signature="e#9459#9504#0" expanded="false" />
-                <element signature="method#httpTLSify#0;class#TestConfig#0" expanded="false" />
-                <element signature="docComment;method#getConfig#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getConfig#0;class#TestConfig#0" expanded="false" />
-                <element signature="docComment;method#getProperty#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getProperty#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#defaultProperty#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getIntegrationTestsSampleOrgs#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getIntegrationTestsSampleOrg#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getPeerProperties#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getOrdererProperties#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getEndPointProperties#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getEventHubProperties#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getTestChannelPath#0;class#TestConfig#0" expanded="false" />
-                <element signature="method#getDomainName#0;class#TestConfig#0" expanded="false" />
+                <marker date="1503458276172" expanded="false" signature="9401:9790" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="9447:9675" ph="//..." />
+                <marker date="1503458276172" expanded="false" signature="9839:9993" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="9999:10115" ph="/**...*/" />
+                <marker date="1503458276172" expanded="false" signature="10157:10267" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="10273:10420" ph="/**...*/" />
+                <marker date="1503458276172" expanded="false" signature="10469:10684" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="10752:11273" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="11314:11325" ph=" { " />
+                <marker date="1503458276172" expanded="false" signature="11378:11384" ph=" }" />
+                <marker date="1503458276172" expanded="false" signature="11420:11431" ph=" { " />
+                <marker date="1503458276172" expanded="false" signature="11484:11490" ph=" }" />
+                <marker date="1503458276172" expanded="false" signature="11526:11537" ph=" { " />
+                <marker date="1503458276172" expanded="false" signature="11590:11596" ph=" }" />
+                <marker date="1503458276172" expanded="false" signature="11635:11646" ph=" { " />
+                <marker date="1503458276172" expanded="false" signature="11701:11707" ph=" }" />
+                <marker date="1503458276172" expanded="false" signature="11774:11853" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="11918:11963" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="12019:12080" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="12138:12201" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="12287:13138" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="13197:13284" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="13325:13431" ph="{...}" />
+                <marker date="1503458276172" expanded="false" signature="13479:13489" ph=" { " />
+                <marker date="1503458276172" expanded="false" signature="13522:13528" ph=" }" />
+                <marker date="1503458276172" expanded="false" signature="13582:13748" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -132,17 +73,17 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+            <state relative-caret-position="650">
+              <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -236,10 +177,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/SampleStore.java" />
         <option value="$PROJECT_DIR$/src/main/resources/operation.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/test/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestOper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java" />
       </list>
     </option>
   </component>
@@ -286,9 +227,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fabric-sdk-java-operation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fabric-sdk-java-operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -305,17 +257,6 @@
               <item name="fabric-sdk-java-operation" type="1abcf292:AndroidViewProjectNode" />
               <item name="fabric-sdk-java-operation" type="1039202d:NonAndroidModuleNode" />
               <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="fabric-sdk-java-operation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fabric-sdk-java-operation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -694,7 +635,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -704,11 +644,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18389058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19300912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25379938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -988,33 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-          <folding>
-            <element signature="docComment;class#TestConfig#0" expanded="false" />
-            <element signature="e#3642#3686#0" expanded="false" />
-            <element signature="method#grpcTLSify#0;class#TestConfig#0" expanded="false" />
-            <element signature="e#9459#9504#0" expanded="false" />
-            <element signature="method#httpTLSify#0;class#TestConfig#0" expanded="false" />
-            <element signature="docComment;method#getConfig#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getConfig#0;class#TestConfig#0" expanded="false" />
-            <element signature="docComment;method#getProperty#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getProperty#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#defaultProperty#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getIntegrationTestsSampleOrgs#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getIntegrationTestsSampleOrg#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getPeerProperties#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getOrdererProperties#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getEndPointProperties#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getEventHubProperties#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getTestChannelPath#0;class#TestConfig#0" expanded="false" />
-            <element signature="method#getDomainName#0;class#TestConfig#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8625">
@@ -1063,19 +976,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="650">
+          <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestOper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="150">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hyperledger/fabric/operation/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="106" column="41" lean-forward="false" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
+          <folding>
+            <element signature="docComment;class#TestConfig#0" expanded="false" />
+            <element signature="e#3642#3686#0" expanded="false" />
+            <marker date="1503458276172" expanded="false" signature="9401:9790" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="9447:9675" ph="//..." />
+            <marker date="1503458276172" expanded="false" signature="9839:9993" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="9999:10115" ph="/**...*/" />
+            <marker date="1503458276172" expanded="false" signature="10157:10267" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="10273:10420" ph="/**...*/" />
+            <marker date="1503458276172" expanded="false" signature="10469:10684" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="10752:11273" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="11314:11325" ph=" { " />
+            <marker date="1503458276172" expanded="false" signature="11378:11384" ph=" }" />
+            <marker date="1503458276172" expanded="false" signature="11420:11431" ph=" { " />
+            <marker date="1503458276172" expanded="false" signature="11484:11490" ph=" }" />
+            <marker date="1503458276172" expanded="false" signature="11526:11537" ph=" { " />
+            <marker date="1503458276172" expanded="false" signature="11590:11596" ph=" }" />
+            <marker date="1503458276172" expanded="false" signature="11635:11646" ph=" { " />
+            <marker date="1503458276172" expanded="false" signature="11701:11707" ph=" }" />
+            <marker date="1503458276172" expanded="false" signature="11774:11853" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="11918:11963" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="12019:12080" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="12138:12201" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="12287:13138" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="13197:13284" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="13325:13431" ph="{...}" />
+            <marker date="1503458276172" expanded="false" signature="13479:13489" ph=" { " />
+            <marker date="1503458276172" expanded="false" signature="13522:13528" ph=" }" />
+            <marker date="1503458276172" expanded="false" signature="13582:13748" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
